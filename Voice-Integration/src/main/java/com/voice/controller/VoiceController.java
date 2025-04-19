@@ -57,4 +57,9 @@ public class VoiceController {
     }
 
 
+    @GetMapping("/get")
+    public ResponseEntity<String> run() {
+        System.out.println("Progresss................")
+        return ResponseEntity.ok("Success");
+    }
 }
